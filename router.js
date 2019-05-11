@@ -12,9 +12,12 @@ module.exports = {
         });
         
         router.post('/place/search', function (req, res) {
-            console.log(req.body);
+            const request = req.body;
+            const places  = new Place();
+
             res.contentType('json');
-            res.send(JSON.stringify(req.body));
+            places.searchPlacesNearby(request);
+            res.send(JSON.stringify({test : 'Arigatou Gozaimasu~!'}));
         });
 
         return router;

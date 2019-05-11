@@ -4,8 +4,9 @@ const Router = require('./router.js');
 const Express    = require('express');
 const App        = Express();
 const BodyParser = require('body-parser');
-const port       = process.env.PORT || 8080;
-const router     = Express.Router();
+
+const port   = process.env.PORT || 8080;
+const router = Express.Router();
 
 App.use(BodyParser.urlencoded({ extended: false }))
 App.use(BodyParser.json())
