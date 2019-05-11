@@ -1,0 +1,19 @@
+{
+  "name": "barcrawler-server",
+  "version": "1.0.0",
+  "description": "Server-side BarCrawler Node App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slurpa/BarCrawler-Server.git"
+  },
+  "author": "Slurpa LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Slurpa/BarCrawler-Server/issues"
+  },
+  "homepage": "https://github.com/Slurpa/BarCrawler-Server#readme"
+}
